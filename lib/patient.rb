@@ -22,6 +22,6 @@ class Patient
   end
   
   def doctors
-    appointments.mao { |appointment| appointment.doctor}
+    appointments.map { |appointment| appointment.doctor}
   end
 end
